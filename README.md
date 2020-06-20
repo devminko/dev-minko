@@ -1,2 +1,2 @@
-# DevMinko Personal Website
+# Dev Min Ko Personal Website
 Portfolio | www.devminko.com

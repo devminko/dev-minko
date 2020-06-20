@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import Navbar from '../pages/navbar/Navbar';
 import HomePage from '../pages/home-page/HomePage';
+import PortfolioPage from '../pages/portfolio-page/PortfolioPage';
 import Footer from '../pages/footer/Footer';
 
 import style from './app.module.scss';
@@ -17,6 +18,7 @@ const App = () => {
           <Navbar />
           <Switch>
             <Route exact path='/' component={HomePage} />
+            <Route exact path='/portfolio' component={PortfolioPage} />
           </Switch>
         </div>
           <Footer />
