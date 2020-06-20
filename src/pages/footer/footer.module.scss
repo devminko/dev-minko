@@ -2,8 +2,7 @@
 
 // ************* FOOTER COMPONENT STYLES ************* //
 .footer {
-  border-top: 1px solid $grey;
-  // border-top: 1px solid $black;
+  // border-top: 1px solid $grey;
   padding: 4rem 2rem;
   margin: 0 2rem;
 
@@ -67,7 +66,6 @@
         text-decoration: none;
 
         &:hover {
-          // color: $strong-blue;
           color: $soft-orange;
         }
       }
@@ -161,8 +159,6 @@
         align-items: center;
 
         .link {
-          // margin-left: 0;
-          // margin-right: 2rem;
           font-size: 1.6rem;
         }
       }
@@ -173,15 +169,6 @@
         display: flex;
         justify-content: flex-start;
         font-size: 2.4rem;
-
-        .github {
-          // margin-left: 0;
-          // margin-right: 2rem;
-        }
-
-        .linkedin {
-          // margin-left: 0;
-        }
       }
 
       // COPYRIGHT CONTAINER

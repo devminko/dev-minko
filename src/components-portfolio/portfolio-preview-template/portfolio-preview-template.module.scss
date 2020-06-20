@@ -2,76 +2,53 @@
 
 // ************* PORTFOLIO PREVIEW TEMPLATE COMPONENT STYLES ************* //
 .portfolioPreviewTemplate {
-  height: 70vh;
+  height: 50rem;
   margin-bottom: 2rem;
+  padding: 2rem 0;
   
   // HEADER SECTION
   .headerContainer {
-    height: 30%;
+    height: 35%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2rem;
     
     .title {
       color: $black;
       font-family: $primary-font;
-      font-size: 1.6rem;
+      font-size: 1.3rem;
       font-weight: 700;
       text-transform: uppercase;
+      text-align: center;
     }
     
     .name {
       color: $black;
       font-family: $primary-font;
-      font-size: 6rem;
+      font-size: 3.6rem;
       font-weight: 900;
+      text-align: center;
       text-transform: uppercase;
     }
     
     .description {
       color: $black;
       font-family: $primary-font;
-      font-size: 1.6rem;
-      font-weight: 500;
+      font-size: 1.3rem;
+      font-weight: 400;
+      text-align: center;
     }
-
+    
     .link {
       color: $strong-blue;
       margin-top: 2rem;
       text-align: center;
       font-family: $primary-font;
-      font-size: 1.6rem;
-      font-weight: 600;
-    }
-  }
-
-  // TECH STACK SECTION
-  .techstackContainer {
-    height: 10%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-
-    .techstackTitle {
-      color: $black;
-      font-family: $primary-font;
-      font-weight: 600;
+      font-size: 1.3rem;
+      font-weight: 700;
       text-align: center;
-    }
-    
-    .techstack {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      
-      .techstackItem {
-        color: $black;
-        margin: 0 1rem;
-      }
     }
   }
   
@@ -82,7 +59,7 @@
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    height: 55%;
+    height: 65%;
     max-width: $bp-xl;
     background-size: contain;
     background-position: center;
@@ -116,6 +93,12 @@
   // ########## MUNCH ICECREAM ##########
   &.munchicecream {
     background: $flamingo-pink;
+    
+    // HEADER SECTION
+    .headerContainer {
+      // margin: 2rem 0;
+    }
+
     // IMAGE SECTION
     .imageContainer {
       background-size: contain;
@@ -127,6 +110,10 @@
   // ########## BOUTIQUE HIPSTER ##########
   &.boutiquehipster {
     background: lighten(salmon, 5%);
+    // HEADER SECTION
+    .headerContainer {
+      // margin: 2rem 0;
+    }
     // IMAGE SECTION
     .imageContainer {
       background-size: contain;
@@ -148,7 +135,7 @@
 
   // ########## TECH VICE ##########
   &.techvice {
-    background: $warning;
+    background: lighten($warning, 15%);
     // IMAGE SECTION
     .imageContainer {
       background-size: contain;
@@ -162,7 +149,27 @@
 // ************* MEDIA QUERIES ************* //
 @media screen and (min-width: $bp-sm) {
   .portfolioPreviewTemplate {
-    
+    height: 70rem;
+
+    // HEADER SECTION
+    .headerContainer {
+      
+      .title {
+        font-size: 1.5rem;
+      }
+      
+      .name {
+        font-size: 4.8rem;
+      }
+      
+      .description {
+        font-size: 1.5rem;
+      }
+  
+      .link {
+        font-size: 1.5rem;
+      }
+    }
   }
 }
 
@@ -174,6 +181,24 @@
 
 @media screen and (min-width: $bp-lg) {
   .portfolioPreviewTemplate {
-
+    // HEADER SECTION
+    .headerContainer {
+      
+      .title {
+        font-size: 1.6rem;
+      }
+      
+      .name {
+        font-size: 6rem;
+      }
+      
+      .description {
+        font-size: 1.6rem;
+      }
+  
+      .link {
+        font-size: 1.6rem;
+      }
+    }
   }
 }

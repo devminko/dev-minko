@@ -2,8 +2,6 @@
 
 // ************* PORTFOLIO PAGE COMPONENT STYLES ************* //
 .portfolioPage {
-  // min-height: 100vh;
-
   // HEADER CONTAINER SECTION
   .headerContainer {
     max-width: $bp-xl;
@@ -35,7 +33,7 @@
   // PORTFOLIO CONTAINER
   .portfolioContainer {
     margin: 0 auto;
-    padding: 2rem;
+    height: 85%;
   }
 }
 
@@ -54,12 +52,6 @@
       font-size: 1.6rem;
     }
   }
-
-  // PORTFOLIO CONTAINER
-  .portfolioContainer {
-    // border: 1px solid $black;
-    padding: 4rem;
-  }
  } 
 }
 
@@ -77,11 +69,6 @@
         font-size: 1.8rem;
       }
     }
-  
-    // PORTFOLIO CONTAINER
-    .portfolioContainer {
-      // border: 1px solid $black;
-    }
  } 
 }
 
@@ -97,11 +84,6 @@
     .subtitle {
       font-size: 1.8rem;
     }
-  }
-
-  // PORTFOLIO CONTAINER
-  .portfolioContainer {
-    // border: 1px solid $black;
   }
  } 
 }

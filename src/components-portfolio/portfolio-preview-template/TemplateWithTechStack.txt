@@ -30,6 +30,18 @@ const PortfolioPreviewTemplate = ({ number, name, description, link, stack, imag
         <Link to={link} className={style.link}>About {name}</Link>
       </div>
 
+      {/* TECH STACK */}
+      <div className={style.techstackContainer}>
+        <p className={style.techstackTitle}>Created With</p>
+        <div className={style.techstack}>
+          {
+            stack.map((stackItem, idx) => (
+              <p key={idx} className={style.techstackItem}>{stackItem}</p>
+            ))
+          }
+        </div>
+      </div>
+
       {/* IMAGE */}
       <div className={style.imageContainer} />
 

@@ -21,8 +21,8 @@ const Footer = () => {
         </div>
 
         <div className={style.linksContainer}>
-          <Link to='/' className={style.link}>About</Link>
-          <Link to='/' className={style.link}>Portfolio</Link>
+          <Link to='/about' className={style.link}>About</Link>
+          <Link to='/portfolio' className={style.link}>Portfolio</Link>
         </div>
 
         <div className={style.iconsContainer}>

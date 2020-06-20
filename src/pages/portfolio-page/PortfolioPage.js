@@ -30,7 +30,7 @@ const PortfolioPage = () => {
         <PortfolioPreviewTemplate 
           number='2'
           name='The Block'
-          description='Website for an asian inspired foodhall in Northern Virginia'
+          description='Website for an Asian inspired foodhall in Northern Virginia'
           link='/portfolio/the-block'
           stack={['CSS', 'Javascript', 'React', 'Wix']}
           // image='../../assets/agile-client-homepage-1.png'
