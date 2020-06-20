@@ -1,0 +1,179 @@
+@import '../../styles/global.styles';
+
+// ************* PORTFOLIO PREVIEW TEMPLATE COMPONENT STYLES ************* //
+.portfolioPreviewTemplate {
+  height: 70vh;
+  margin-bottom: 2rem;
+  
+  // HEADER SECTION
+  .headerContainer {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    .title {
+      color: $black;
+      font-family: $primary-font;
+      font-size: 1.6rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    
+    .name {
+      color: $black;
+      font-family: $primary-font;
+      font-size: 6rem;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+    
+    .description {
+      color: $black;
+      font-family: $primary-font;
+      font-size: 1.6rem;
+      font-weight: 500;
+    }
+
+    .link {
+      color: $strong-blue;
+      margin-top: 2rem;
+      text-align: center;
+      font-family: $primary-font;
+      font-size: 1.6rem;
+      font-weight: 600;
+    }
+  }
+
+  // TECH STACK SECTION
+  .techstackContainer {
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    .techstackTitle {
+      color: $black;
+      font-family: $primary-font;
+      font-weight: 600;
+      text-align: center;
+    }
+    
+    .techstack {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      
+      .techstackItem {
+        color: $black;
+        margin: 0 1rem;
+      }
+    }
+  }
+  
+  // IMAGE SECTION
+  .imageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 55%;
+    max-width: $bp-xl;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  // ########################## PORTFOLIO PROJECTS ##########################
+
+  // ########## AGILE CLIENT ##########
+  &.agileclient {
+    background: $light-blue;
+    // IMAGE SECTION
+    .imageContainer {
+      background-size: contain;
+      background-position: top;
+      background-image: linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0)), url('../../assets/agile-client-homepage-1.png');
+    }
+  }
+
+  // ########## THE BLOCK ##########
+  &.theblock {
+    background: $grey;
+    // IMAGE SECTION
+    .imageContainer {
+      background-size: contain;
+      background-position: top;
+      background-image: linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0)), url('../../assets/the-block-homepage-1.png');
+    }
+  }
+
+  // ########## MUNCH ICECREAM ##########
+  &.munchicecream {
+    background: $flamingo-pink;
+    // IMAGE SECTION
+    .imageContainer {
+      background-size: contain;
+      background-position: top;
+      background-image: linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0)), url('../../assets/munch-icecream-homepage-1.png');
+    }
+  }
+  
+  // ########## BOUTIQUE HIPSTER ##########
+  &.boutiquehipster {
+    background: lighten(salmon, 5%);
+    // IMAGE SECTION
+    .imageContainer {
+      background-size: contain;
+      background-position: top;
+      background-image: linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0)), url('../../assets/boutique-hipster-homepage-1.png');
+    }
+  }
+
+  // ########## SKYNET ##########
+  &.skynet {
+    background: lighten($dark-grey, 30%);
+    // IMAGE SECTION
+    .imageContainer {
+      background-size: contain;
+      background-position: top;
+      background-image: linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0)), url('../../assets/skynet-homepage-1.png');
+    }
+  }
+
+  // ########## TECH VICE ##########
+  &.techvice {
+    background: $warning;
+    // IMAGE SECTION
+    .imageContainer {
+      background-size: contain;
+      background-position: top;
+      background-image: linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0)), url('../../assets/tech-vice-productpage-1.png');
+    }
+  }
+
+}
+
+// ************* MEDIA QUERIES ************* //
+@media screen and (min-width: $bp-sm) {
+  .portfolioPreviewTemplate {
+    
+  }
+}
+
+@media screen and (min-width: $bp-md) {
+  .portfolioPreviewTemplate {
+
+  }
+}
+
+@media screen and (min-width: $bp-lg) {
+  .portfolioPreviewTemplate {
+
+  }
+}

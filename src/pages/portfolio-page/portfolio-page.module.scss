@@ -2,24 +2,106 @@
 
 // ************* PORTFOLIO PAGE COMPONENT STYLES ************* //
 .portfolioPage {
+  // min-height: 100vh;
 
+  // HEADER CONTAINER SECTION
+  .headerContainer {
+    max-width: $bp-xl;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 2rem;
+
+    .title {
+      color: $black;
+      font-family: $primary-font;
+      font-size: 3.2rem;
+      font-weight: 900;
+      text-align: center;
+    }
+
+    .subtitle {
+      color: $dark-grey;
+      font-family: $primary-font;
+      font-size: 1.4rem;
+      font-weight: 500;
+      text-align: center;
+    }
+  }
+
+  // PORTFOLIO CONTAINER
+  .portfolioContainer {
+    margin: 0 auto;
+    padding: 2rem;
+  }
 }
 
 // ************* MEDIA QUERIES ************* //
 @media screen and (min-width: $bp-sm) {
  .portfolioPage {
-   
+  // HEADER CONTAINER SECTION
+  .headerContainer {
+    padding: 4rem;
+
+    .title {
+      font-size: 5.2rem;
+    }
+
+    .subtitle {
+      font-size: 1.6rem;
+    }
+  }
+
+  // PORTFOLIO CONTAINER
+  .portfolioContainer {
+    // border: 1px solid $black;
+    padding: 4rem;
+  }
  } 
 }
 
 @media screen and (min-width: $bp-md) {
  .portfolioPage {
-
+    // HEADER CONTAINER SECTION
+    .headerContainer {
+      // align-items: flex-start;
+  
+      .title {
+        font-size: 6.4rem;
+      }
+  
+      .subtitle {
+        font-size: 1.8rem;
+      }
+    }
+  
+    // PORTFOLIO CONTAINER
+    .portfolioContainer {
+      // border: 1px solid $black;
+    }
  } 
 }
 
 @media screen and (min-width: $bp-lg) {
  .portfolioPage {
+  // HEADER CONTAINER SECTION
+  .headerContainer {
 
+    .title {
+      font-size: 6rem;
+    }
+
+    .subtitle {
+      font-size: 1.8rem;
+    }
+  }
+
+  // PORTFOLIO CONTAINER
+  .portfolioContainer {
+    // border: 1px solid $black;
+  }
  } 
 }

@@ -27,7 +27,7 @@
         .logo {
           color: $black;
           text-transform: uppercase;
-          font-family: $secondary-font;
+          font-family: $primary-font;
           font-size: 3rem;
           font-weight: 900;
   
@@ -44,7 +44,7 @@
       justify-content: center;
 
       .text {
-        font-family: $primary-font;
+        font-family: $secondary-font;
         color: $dark-grey;
         text-align: center;
         font-weight: 600;
@@ -61,7 +61,7 @@
       .link {
         margin: 0 1rem;
         color: $black;
-        font-family: $secondary-font;
+        font-family: $primary-font;
         font-size: 1.5rem;
         font-weight: 800;
         text-decoration: none;
@@ -85,7 +85,6 @@
         margin: 0 1rem;
 
         &:hover {
-          // color: $dark-teal;
           color: $strong-blue;
         }
       }
@@ -95,7 +94,6 @@
         margin: 0 1rem;
 
         &:hover {
-          // color: $dark-teal;
           color: $strong-blue;
         }
       }
@@ -109,7 +107,7 @@
       margin-top: 1rem;
 
       .copyright {
-        font-family: $secondary-font;
+        font-family: $primary-font;
         color: $dark-grey;
         font-size: 1.3rem;
       }
