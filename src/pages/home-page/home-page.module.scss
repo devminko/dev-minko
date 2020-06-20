@@ -1,0 +1,25 @@
+@import '../../styles/global.styles';
+
+// ************* HOME PAGE COMPONENT STYLES ************* //
+.homePage {
+  // border: 1px solid $black;
+}
+
+// ************* MEDIA QUERIES ************* //
+@media screen and (min-width: $bp-sm) {
+  .homePage {
+    
+  }
+}
+
+@media screen and (min-width: $bp-md) {
+  .homePage {
+
+  }
+}
+
+@media screen and (min-width: $bp-lg) {
+  .homePage {
+
+  }
+}
