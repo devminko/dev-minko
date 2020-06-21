@@ -1,0 +1,308 @@
+@import '../../styles/global.styles';
+
+// ************* MUNCH ICECREAM COMPONENT STYLES ************* //
+.munchIcecream {
+  min-height: 100vh;
+  background: $flamingo-pink;
+  padding-bottom: 4rem;
+
+  // HEADER SECTION
+  .headerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    margin-bottom: 2rem;
+    
+    .name {
+      color: $white;
+      font-family: $primary-font;
+      font-size: 3.6rem;
+      font-weight: 900;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    
+    .description {
+      color: $white;
+      font-family: $primary-font;
+      font-size: 1.3rem;
+      font-weight: 600;
+      text-align: center;
+    }
+  }
+
+  // LINKS SECTION
+  .linksContainer {
+    margin-bottom: 2rem;
+
+    .links {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+      .link {
+        // color: $strong-blue;
+        color: $black;
+        font-size: 1.3rem;
+        margin: 0 2rem;
+
+        .webIcon {
+          font-size: 1.6rem;
+          margin-right: 0.5rem;
+        }
+      }
+    }
+  }
+
+  // IMAGE SECTION 1
+  .image {
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+
+  // TECH STACK SECTION
+  .stackContainer {
+    margin-bottom: 2rem;
+
+    .stackTitle {
+      color: $white;
+      font-size: 2.4rem;
+      font-weight: 900;
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+
+    .iconsContainer {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      .techIcon {
+        color: $white;
+        font-size: 3.2rem;
+        margin: 0 1rem;
+      }
+    }
+  }
+
+  // GOALS CONTAINER SECTION
+  .goalsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+    
+    .textContainer {
+      margin-bottom: 2rem;
+      
+      .goalsTitle {
+        color: $white;
+        font-size: 2.4rem;
+        font-weight: 900;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+      }
+
+      .goalsDescription {
+        color: $white;
+        font-size: 1.4rem;
+        font-family: $secondary-font;
+        font-weight: 500;
+      }
+    }
+
+    .goalsImageContainer {
+
+      .goalsImage {
+        // height: 100%;
+      }
+    }
+  }
+
+}
+
+// ************* PORTFOLIO PAGE COMPONENT STYLES ************* //
+@media screen and (min-width: $bp-sm) {
+  .munchIcecream {
+    // HEADER SECTION
+    .headerContainer {
+      
+      .name {
+        font-size: 4.8rem;
+      }
+      
+      .description {
+        font-size: 1.5rem;
+      }
+    }
+
+    // LINKS SECTION
+    .linksContainer {
+      .links {
+        .link {
+          font-size: 1.5rem;
+
+          .webIcon {
+            font-size: 1.8rem;
+          }
+
+          .githubIcon {
+            font-size: 1.8rem;
+          }
+        }
+      }
+    }
+    // IMAGE SECTION 1
+    .image {
+      height: auto;
+      width: 50%;
+      margin-bottom: 4rem;
+    }
+  
+    // TECH STACK SECTION
+    .stackContainer {
+  
+      .stackTitle {
+        font-size: 2.4rem;
+        margin-bottom: 2rem;
+      }
+    }
+  
+    // GOALS CONTAINER SECTION
+    .goalsContainer {
+      display: flex;
+      flex-direction: column;
+  
+      .textContainer {
+  
+        .goalsDescription {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+
+}
+
+@media screen and (min-width: $bp-md) {
+  .munchIcecream {
+
+  }
+}
+
+@media screen and (min-width: $bp-lg) {
+  .munchIcecream {
+    // HEADER SECTION
+    .headerContainer {
+      
+      .name {
+        font-size: 7.2rem;
+      }
+      
+      .description {
+        font-size: 1.8rem;
+      }
+    }
+    // LINKS SECTION
+    .linksContainer {
+
+      .links {
+        .link {
+          font-size: 1.6rem;
+        }
+      }
+    }
+
+    // IMAGE SECTION 1
+    .image {
+      height: auto;
+      width: 50%;
+      margin-bottom: 4rem;
+    }
+
+    // TECH STACK SECTION
+    .stackContainer {
+      margin-bottom: 2rem;
+
+      .stackTitle {
+        font-size: 3.6rem;
+      }
+
+      .iconsContainer {
+
+        .techIcon {
+          margin: 0 3rem;
+          font-size: 5rem;
+        }
+      }
+    }
+
+    // GOALS CONTAINER SECTION
+    .goalsContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin: 0 auto;
+      padding: 4rem 2rem;
+      max-width: $bp-xl;
+
+      .textContainer {
+        width: 40%;
+        margin-bottom: 0;
+        padding: 0 4rem;
+
+        .goalsTitle {
+          font-size: 3.6rem;
+          text-align: justify;
+        }
+
+        .goalsDescription {
+          font-size: 1.6rem;
+        }
+      }
+
+      .goalsImageContainer {
+        width: 60%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $bp-xl) {
+  .munchIcecream {
+    // IMAGE SECTION 1
+    .image {
+      height: auto;
+      width: 50%;
+      margin-bottom: 4rem;
+    }
+
+    // GOALS CONTAINER SECTION
+    .goalsContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin: 0 auto;
+      padding: 4rem 2rem;
+      max-width: $bp-xl;
+
+      .textContainer {
+        padding: 0 8rem 0 4rem;
+
+        .goalsDescription {
+          font-size: 1.8rem;
+        }
+      }
+    }
+  }
+}

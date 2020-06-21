@@ -1,7 +1,7 @@
 @import '../../styles/global.styles';
 
-// ************* PORTFOLIO PAGE COMPONENT STYLES ************* //
-.portfolioAgileClient {
+// ************* AGILE CLIENT COMPONENT STYLES ************* //
+.agileClient {
   min-height: 100vh;
   background: $light-blue;
   padding-bottom: 4rem;
@@ -57,6 +57,41 @@
         .githubIcon {
           font-size: 1.6rem;
           margin-right: 0.5rem;
+        }
+      }
+    }
+  }
+
+  // TEST ACCOUNT SECTION
+  .testAccountContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+    .testTitle {
+      font-size: 1.6rem;
+      font-weight: 800;
+    }
+
+    .credentialsContainer {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+      .accountName {
+        color: $black;
+        font-size: 1.3rem;
+        font-weight: 700;
+        margin: 0 2rem;
+
+        .accountText {
+          color: $black;
+          font-size: 1.3rem;
+          font-weight: 400;
         }
       }
     }
@@ -134,7 +169,7 @@
 
 // ************* PORTFOLIO PAGE COMPONENT STYLES ************* //
 @media screen and (min-width: $bp-sm) {
-  .portfolioAgileClient {
+  .agileClient {
     // HEADER SECTION
     .headerContainer {
       
@@ -163,46 +198,68 @@
         }
       }
     }
-  }
+    // TEST ACCOUNT SECTION
+    .testAccountContainer {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
 
-  // IMAGE SECTION 1
-  .image {
-    height: auto;
-    width: 50%;
-    margin-bottom: 4rem;
-  }
+      .testTitle {
+        font-size: 1.8rem;
+      }
 
-  // TECH STACK SECTION
-  .stackContainer {
+      .credentialsContainer {
+        .accountName {
+          font-size: 1.5rem;
+          margin: 0 2rem;
 
-    .stackTitle {
-      font-size: 2.4rem;
-      margin-bottom: 2rem;
+          .accountText {
+            font-size: 1.5rem;
+          }
+        }
+      }
     }
-  }
-
-  // GOALS CONTAINER SECTION
-  .goalsContainer {
-    display: flex;
-    flex-direction: column;
-
-    .textContainer {
-
-      .goalsDescription {
-        font-size: 1.5rem;
+    // IMAGE SECTION 1
+    .image {
+      height: auto;
+      width: 50%;
+      margin-bottom: 4rem;
+    }
+  
+    // TECH STACK SECTION
+    .stackContainer {
+  
+      .stackTitle {
+        font-size: 2.4rem;
+        margin-bottom: 2rem;
+      }
+    }
+  
+    // GOALS CONTAINER SECTION
+    .goalsContainer {
+      display: flex;
+      flex-direction: column;
+  
+      .textContainer {
+  
+        .goalsDescription {
+          font-size: 1.5rem;
+        }
       }
     }
   }
+
 }
 
 @media screen and (min-width: $bp-md) {
-  .portfolioAgileClient {
+  .agileClient {
 
   }
 }
 
 @media screen and (min-width: $bp-lg) {
-  .portfolioAgileClient {
+  .agileClient {
     // HEADER SECTION
     .headerContainer {
       
@@ -220,6 +277,27 @@
       .links {
         .link {
           font-size: 1.6rem;
+        }
+      }
+    }
+
+    // TEST ACCOUNT SECTION
+    .testAccountContainer {
+      margin-bottom: 2rem;
+
+      .testTitle {
+        font-size: 2rem;
+      }
+
+      .credentialsContainer {
+        .accountName {
+          font-size: 1.5rem;
+          font-weight: 700;
+          margin: 0 2rem;
+
+          .accountText {
+            font-size: 1.5rem;
+          }
         }
       }
     }
@@ -280,7 +358,7 @@
 }
 
 @media screen and (min-width: $bp-xl) {
-  .portfolioAgileClient {
+  .agileClient {
     // IMAGE SECTION 1
     .image {
       height: auto;
