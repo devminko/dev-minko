@@ -23,7 +23,6 @@ const PortfolioPage = () => {
           description='Fully featured Client Relationship Manager'
           link='/portfolio/agile-client'
           stack={['Javascript', 'React', 'Redux', 'Django', 'PostgreSQL', 'Docker']}
-          // image='../../assets/agile-client-homepage-1.png'
           image='/../../assets/agile-client-homepage-1.png'
           agileclient
         />
@@ -33,7 +32,6 @@ const PortfolioPage = () => {
           description='Website for an Asian inspired foodhall in Northern Virginia'
           link='/portfolio/the-block'
           stack={['CSS', 'Javascript', 'React', 'Wix']}
-          // image='../../assets/agile-client-homepage-1.png'
           image='/src/assets/agile-client-homepage-1.png'
           theblock
         />
@@ -43,7 +41,6 @@ const PortfolioPage = () => {
           description='Website for a dessert shop in Northern Virginia'
           link='/portfolio/munch-icecream'
           stack={['CSS', 'Javascript', 'React', 'Wix']}
-          // image='../../assets/agile-client-homepage-1.png'
           image='/src/assets/agile-client-homepage-1.png'
           munchicecream
         />
@@ -53,27 +50,24 @@ const PortfolioPage = () => {
           description='Faux High End Boutique Clothing Store'
           link='/portfolio/boutique-hipster'
           stack={['Javascript', 'React', 'Redux', 'Node.js', 'PostgreSQL']}
-          // image='../../assets/agile-client-homepage-1.png'
           image='/src/assets/agile-client-homepage-1.png'
           boutiquehipster
         />
         <PortfolioPreviewTemplate
           number='5' 
           name='Skynet'
-          description='Minimal/limited social media application'
+          description='Minimal / limited social media application'
           link='/portfolio/skynet'
           stack={['Javascript', 'React', 'Redux', 'Node.js', 'PostgreSQL']}
-          // image='../../assets/agile-client-homepage-1.png'
           image='/src/assets/agile-client-homepage-1.png'
           skynet
         />
         <PortfolioPreviewTemplate
           number='6' 
           name='Tech Vice'
-          description='A mock of a modern e-commerce site'
+          description='Mock modern e-commerce site'
           link='/portfolio/tech-vice'
           stack={['Javascript', 'React', 'Redux', 'Firebase']}
-          // image='../../assets/agile-client-homepage-1.png'
           image='/src/assets/agile-client-homepage-1.png'
           techvice
         />
