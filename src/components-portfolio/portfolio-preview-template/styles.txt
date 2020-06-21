@@ -13,7 +13,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    // margin-bottom: 2rem;
+    margin-bottom: 2rem;
     
     .title {
       color: $black;
@@ -65,7 +65,6 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 2rem;
   }
 
   // ########################## PORTFOLIO PROJECTS ##########################
@@ -73,31 +72,77 @@
   // ########## AGILE CLIENT ##########
   &.agileclient {
     background: $light-blue;
+    // IMAGE SECTION
+    .imageContainer {
+      background-size: contain;
+      background-position: top;
+      background-image: linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0)), url('../../assets/agile-client-homepage-1.png');
+    }
   }
 
   // ########## THE BLOCK ##########
   &.theblock {
     background: $grey;
+    // IMAGE SECTION
+    .imageContainer {
+      background-size: contain;
+      background-position: top;
+      background-image: linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0)), url('../../assets/the-block-homepage-1.png');
+    }
   }
 
   // ########## MUNCH ICECREAM ##########
   &.munchicecream {
     background: $flamingo-pink;
+    
+    // HEADER SECTION
+    .headerContainer {
+      // margin: 2rem 0;
+    }
+
+    // IMAGE SECTION
+    .imageContainer {
+      background-size: contain;
+      background-position: top;
+      background-image: linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0)), url('../../assets/munch-icecream-homepage-1.png');
+    }
   }
   
   // ########## BOUTIQUE HIPSTER ##########
   &.boutiquehipster {
     background: lighten(salmon, 5%);
+    // HEADER SECTION
+    .headerContainer {
+      // margin: 2rem 0;
+    }
+    // IMAGE SECTION
+    .imageContainer {
+      background-size: contain;
+      background-position: top;
+      background-image: linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0)), url('../../assets/boutique-hipster-homepage-1.png');
+    }
   }
 
   // ########## SKYNET ##########
   &.skynet {
     background: lighten($dark-grey, 30%);
+    // IMAGE SECTION
+    .imageContainer {
+      background-size: contain;
+      background-position: top;
+      background-image: linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0)), url('../../assets/skynet-homepage-1.png');
+    }
   }
 
   // ########## TECH VICE ##########
   &.techvice {
     background: lighten($warning, 15%);
+    // IMAGE SECTION
+    .imageContainer {
+      background-size: contain;
+      background-position: top;
+      background-image: linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0)), url('../../assets/tech-vice-productpage-1.png');
+    }
   }
 
 }
@@ -125,11 +170,6 @@
       .link {
         font-size: 1.5rem;
       }
-    }
-
-    // IMAGE SECTION
-    .imageContainer {
-      padding: 0;
     }
   }
 }

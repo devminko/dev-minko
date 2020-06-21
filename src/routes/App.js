@@ -4,6 +4,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 // MAIN PAGES
 import Navbar from '../pages/navbar/Navbar';
 import HomePage from '../pages/home-page/HomePage';
+import AboutPage from '../pages/about-page/AboutPage';
 import PortfolioPage from '../pages/portfolio-page/PortfolioPage';
 import Footer from '../pages/footer/Footer';
 
@@ -27,6 +28,7 @@ const App = () => {
           <Navbar />
           <Switch>
             <Route exact path='/' component={HomePage} />
+            <Route exact path='/about' component={AboutPage} />
             <Route exact path='/portfolio' component={PortfolioPage} />
             <Route exact path='/portfolio/agile-client' component={AgileClient} />
             <Route exact path='/portfolio/the-block' component={TheBlock} />

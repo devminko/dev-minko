@@ -31,7 +31,11 @@ const PortfolioPreviewTemplate = ({ number, name, description, link, stack, imag
       </div>
 
       {/* IMAGE */}
-      <div className={style.imageContainer} />
+      <img 
+        alt={name}
+        src={image}
+        className={style.imageContainer}
+      />
 
     </div>
   )

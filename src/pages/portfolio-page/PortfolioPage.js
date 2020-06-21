@@ -23,7 +23,7 @@ const PortfolioPage = () => {
           description='Fully featured Client Relationship Manager'
           link='/portfolio/agile-client'
           stack={['Javascript', 'React', 'Redux', 'Django', 'PostgreSQL', 'Docker']}
-          image='/../../assets/agile-client-homepage-1.png'
+          image='/assets/agile-client-homepage-1.png'
           agileclient
         />
         <PortfolioPreviewTemplate 
@@ -32,7 +32,7 @@ const PortfolioPage = () => {
           description='Website for an Asian inspired foodhall in Northern Virginia'
           link='/portfolio/the-block'
           stack={['CSS', 'Javascript', 'React', 'Wix']}
-          image='/src/assets/agile-client-homepage-1.png'
+          image='/assets/the-block-homepage-1.png'
           theblock
         />
         <PortfolioPreviewTemplate
@@ -41,7 +41,7 @@ const PortfolioPage = () => {
           description='Website for a dessert shop in Northern Virginia'
           link='/portfolio/munch-icecream'
           stack={['CSS', 'Javascript', 'React', 'Wix']}
-          image='/src/assets/agile-client-homepage-1.png'
+          image='/assets/munch-icecream-homepage-1.png'
           munchicecream
         />
         <PortfolioPreviewTemplate
@@ -50,7 +50,7 @@ const PortfolioPage = () => {
           description='Faux High End Boutique Clothing Store'
           link='/portfolio/boutique-hipster'
           stack={['Javascript', 'React', 'Redux', 'Node.js', 'PostgreSQL']}
-          image='/src/assets/agile-client-homepage-1.png'
+          image='/assets/boutique-hipster-homepage-1.png'
           boutiquehipster
         />
         <PortfolioPreviewTemplate
@@ -59,7 +59,7 @@ const PortfolioPage = () => {
           description='Minimal / limited social media application'
           link='/portfolio/skynet'
           stack={['Javascript', 'React', 'Redux', 'Node.js', 'PostgreSQL']}
-          image='/src/assets/agile-client-homepage-1.png'
+          image='/assets/skynet-homepage-1.png'
           skynet
         />
         <PortfolioPreviewTemplate
@@ -68,7 +68,7 @@ const PortfolioPage = () => {
           description='Mock modern e-commerce site'
           link='/portfolio/tech-vice'
           stack={['Javascript', 'React', 'Redux', 'Firebase']}
-          image='/src/assets/agile-client-homepage-1.png'
+          image='/assets/tech-vice-productpage-1.png'
           techvice
         />
       </div>

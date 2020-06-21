@@ -1,0 +1,200 @@
+@import '../../styles/global.styles';
+
+// ************* ABOUT PAGE COMPONENT STYLES ************* //
+.aboutPage {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // align-items: center;
+  max-width: $bp-xl;
+  margin: 0 auto;
+
+  // HEADER CONTAINER SECTION
+  .headerContainer {
+    height: 15%;
+    padding: 2rem;
+
+    .title {
+      color: $black;
+      font-family: $primary-font;
+      font-size: 3.2rem;
+      font-weight: 900;
+      text-align: center;
+    }
+
+    .subtitle {
+      color: $dark-grey;
+      font-family: $primary-font;
+      font-size: 1.4rem;
+      font-weight: 500;
+      text-align: center;
+    }
+  }
+
+  // CONTACT CONTAINER SECTION
+  .contactContainer {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .contactsTitle {
+      font-family: $primary-font;
+      font-size: 3rem;
+      font-weight: 800;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .textContainer {
+      display: flex;
+      flex-direction: column;
+
+      .contactText {
+        font-weight: 700;
+
+        .contactHighlight {
+          font-weight: 400;
+        }
+      }
+    }
+  }
+
+  // DETAILS CONTAINER SECTION
+  .detailsContainer {
+
+    .detailsTitle {
+      font-family: $primary-font;
+      font-size: 3rem;
+      font-weight: 800;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .detailsText {
+      margin-bottom: 1rem;
+    }
+  }
+  
+}
+
+// ************* MEDIA QUERIES ************* //
+@media screen and (min-width: $bp-sm) {
+  .aboutPage {
+    
+    // HEADER CONTAINER SECTION
+    .headerContainer {
+      padding: 4rem;
+
+      .title {
+        font-size: 5.2rem;
+      }
+
+      .subtitle {
+        font-size: 1.6rem;
+      }
+    }
+
+    // CONTACT CONTAINER SECTION
+    .contactContainer {
+
+      .contactsTitle {
+
+      }
+
+      .textContainer {
+        display: flex;
+        flex-direction: row;
+
+        .contactText {
+          margin-right: 2rem;
+
+          .contactHighlight {
+
+          }
+        }
+      }
+    }
+
+    // DETAILS CONTAINER SECTION
+    .detailsContainer {
+
+      .detailsTitle {
+
+      }
+
+      .detailsText {
+
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $bp-md) {
+  .aboutPage {    
+    padding: 0 4rem;
+
+    // HEADER CONTAINER SECTION
+    .headerContainer {
+      // align-items: flex-start;
+  
+      .title {
+        font-size: 6.4rem;
+      }
+  
+      .subtitle {
+        font-size: 1.8rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $bp-lg) {
+  .aboutPage {
+    // HEADER CONTAINER SECTION
+    .headerContainer {
+
+      .title {
+        font-size: 6rem;
+      }
+
+      .subtitle {
+        font-size: 1.8rem;
+      }
+    }
+
+        // CONTACT CONTAINER SECTION
+    .contactContainer {
+
+      .contactsTitle {
+        text-align: justify;
+      }
+
+      .textContainer {
+        display: flex;
+        flex-direction: row;
+
+        .contactText {
+          margin-right: 4rem;
+
+          .contactHighlight {
+
+          }
+        }
+      }
+    }
+
+    // DETAILS CONTAINER SECTION
+    .detailsContainer {
+
+      .detailsTitle {
+        text-align: justify;
+      }
+
+      .detailsText {
+
+      }
+    }
+  }
+}
