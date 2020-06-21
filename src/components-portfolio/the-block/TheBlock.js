@@ -1,4 +1,5 @@
 import React, { } from 'react';
+import { Link } from 'react-router-dom';
 import { MdWeb } from 'react-icons/md';
 import { DiJavascript, DiReact, DiSass } from 'react-icons/di';
 import { FaWix } from 'react-icons/fa';
@@ -13,7 +14,7 @@ const TheBlock = () => {
       {/* HEADER */}
       <div className={style.headerContainer}>
         <h1 className={style.name}>The Block</h1>
-        <p className={style.description}>Asian Inspired Foodhall in Northern Virginia</p>
+        <p className={style.description}>Asian Inspired Foodhall in Northern Virginia, Maryland and Washington D.C.</p>
       </div>
 
       {/* PORTFOLIO LINKS */}
@@ -56,7 +57,13 @@ const TheBlock = () => {
         <div className={style.textContainer}>
           <h2 className={style.goalsTitle}>Project Goals</h2>
           <p className={style.goalsDescription}>
-            The Block Foodhall wanted a redesign of their initial website as the one they had when they had originally opened was not how they wanted to represent their business. When I was tasked with creating the website, the foodhall hadn't come into their own identity as they are today (a trendy, bright, colorful foodie hangout), so I worked with the manager to create a modern looking website without boxing them into a distinct identity.
+            The Block Foodhall wanted a redesign of their initial website as the one they had when they had originally opened was not how they wanted to represent their business. 
+            <br />
+            <br />
+            When I was tasked with redesigning the website, the foodhall had come into their own identity (a trendy, bright, colorful foodie hangout), so I worked with the owner and manager to create a modern looking website that highlights the atmosphere of their three locations. 
+            <br />
+            <br />
+            Delicious food and highly recommend you stop by if you're in the area!
           </p>
         </div>
         <div className={style.goalsImageContainer}>
@@ -66,6 +73,11 @@ const TheBlock = () => {
             className={style.goalsImage}
           />
         </div>
+      </div>
+
+      {/* PORTFOLIO LINK */}
+      <div className={style.portfolioLinkContainer}>
+        <Link to='/portfolio' className={style.portfolioLink}>Back to Portfolio</Link>
       </div>
 
     </div>

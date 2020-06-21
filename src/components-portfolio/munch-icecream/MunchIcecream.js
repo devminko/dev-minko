@@ -1,4 +1,5 @@
 import React, { } from 'react';
+import { Link } from 'react-router-dom';
 import { MdWeb } from 'react-icons/md';
 import { DiJavascript, DiReact, DiSass } from 'react-icons/di';
 import { FaWix } from 'react-icons/fa';
@@ -56,7 +57,13 @@ const MunchIcecream = () => {
         <div className={style.textContainer}>
           <h2 className={style.goalsTitle}>Project Goals</h2>
           <p className={style.goalsDescription}>
-            Munch Ice Cream wanted a redesign of their former website to be more in tune with the identity of their business. Similar to places such as Voodoo Donut's in Washington state and other eccentric sweet shops in California / New York, their food items packed a lot of personality into each of their items and as such I wanted to create a similar vibe with the website itself. The owners and I worked together to create design for the website to match energy of the business.
+            Munch Ice Cream wanted a redesign of their former website to be more in tune with the identity of their business. 
+            <br />
+            <br />
+            Similar to places such as Voodoo Donut's in Washington state and other eccentric sweet shops in California / New York, their food items packed a lot of personality into each of their items and as such I wanted to create a similar vibe with the website itself. 
+            <br />
+            <br />
+            I worked together with the owner and manager to redesign the website to match energy of the business.
           </p>
         </div>
         <div className={style.goalsImageContainer}>
@@ -68,6 +75,11 @@ const MunchIcecream = () => {
         </div>
       </div>
 
+      {/* PORTFOLIO LINK */}
+      <div className={style.portfolioLinkContainer}>
+        <Link to='/portfolio' className={style.portfolioLink}>Back to Portfolio</Link>
+      </div>
+      
     </div>
   )
 };

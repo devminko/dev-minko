@@ -1,4 +1,5 @@
 import React, { } from 'react';
+import { Link } from 'react-router-dom';
 import { MdWeb } from 'react-icons/md';
 import { FaGithub } from 'react-icons/fa';
 import { DiSass, DiJavascript, DiReact, DiNodejs, DiPostgresql } from 'react-icons/di';
@@ -82,7 +83,13 @@ const Skynet = () => {
         <div className={style.textContainer}>
           <h2 className={style.goalsTitle}>Project Goals</h2>
           <p className={style.goalsDescription}>
-            Skynet was created as a social media application to allow users to create accounts, add friends, create and comment on posts in addition to being able to view a newsfeed of your friends posts as well as your own. On this project I worked in conjunction with a back-end developer and provided the front-end development.
+            On this project I worked in conjunction with a back-end developer and provided the front-end development.
+            <br />
+            <br />
+            Skynet was created as a social media application to allow users to create accounts, add friends, create and comment on posts in addition to being able to view a newsfeed of your friends posts as well as your own.
+            <br />
+            <br />
+            The features are fairly rudimentary and the styling leaves much to be desired but this was done more as an exercise of working together with another developer and a project manager overseeing the workflow. 
           </p>
         </div>
         <div className={style.goalsImageContainer}>
@@ -92,6 +99,11 @@ const Skynet = () => {
             className={style.goalsImage}
           />
         </div>
+      </div>
+
+      {/* PORTFOLIO LINK */}
+      <div className={style.portfolioLinkContainer}>
+        <Link to='/portfolio' className={style.portfolioLink}>Back to Portfolio</Link>
       </div>
 
     </div>

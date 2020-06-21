@@ -29,7 +29,7 @@ const PortfolioPage = () => {
         <PortfolioPreviewTemplate 
           number='2'
           name='The Block'
-          description='Website for an Asian inspired foodhall in Northern Virginia'
+          description='Website for an Asian inspired foodhall in Northern Virginia, Maryland and Washington D.C.'
           link='/portfolio/the-block'
           stack={['CSS', 'Javascript', 'React', 'Wix']}
           image='/assets/the-block-homepage-1.png'

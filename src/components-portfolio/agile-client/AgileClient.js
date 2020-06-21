@@ -1,4 +1,5 @@
 import React, { } from 'react';
+import { Link } from 'react-router-dom';
 import { MdWeb } from 'react-icons/md';
 import { FaGithub } from 'react-icons/fa';
 import { DiSass, DiJavascript, DiReact, DiDjango, DiPostgresql, DiDocker } from 'react-icons/di';
@@ -82,7 +83,16 @@ const AgileClient = () => {
         <div className={style.textContainer}>
           <h2 className={style.goalsTitle}>Project Goals</h2>
           <p className={style.goalsDescription}>
-            The Block Foodhall wanted a redesign of their initial website as the one they had when they had originally opened was not how they wanted to represent their business. When I was tasked with creating the website, the foodhall hadn't come into their own identity as they are today (a trendy, bright, colorful foodie hangout), so I worked with the manager to create a modern looking website without boxing them into a distinct identity.
+            Agile Client was created to provide a real world utility for a full fledged Contact Relationship Manager. Agile Client is comprised of three main features. 
+            <br />
+            <br />
+            The Client feature acts as an online rolodex for which you can store contact details related to the client. It allows for the user to store details on the client's company and features a logging feature to keep details of any meetings with the client. 
+            <br />
+            <br />
+            The Calendar feature links together with the logging feature to allow the user quick access to past meetings with any client and details of those meetings just by clicking on a specific date.
+            <br />
+            <br />
+            Lastly, the Task Manager feature to allow the user to keep track of any tasks. This doesn't have to be tied into clients at all and can act as a general task manager.
           </p>
         </div>
         <div className={style.goalsImageContainer}>
@@ -92,6 +102,11 @@ const AgileClient = () => {
             className={style.goalsImage}
           />
         </div>
+      </div>
+
+      {/* PORTFOLIO LINK */}
+      <div className={style.portfolioLinkContainer}>
+        <Link to='/portfolio' className={style.portfolioLink}>Back to Portfolio</Link>
       </div>
 
     </div>

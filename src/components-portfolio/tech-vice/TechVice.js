@@ -1,4 +1,5 @@
 import React, { } from 'react';
+import { Link } from 'react-router-dom';
 import { MdWeb } from 'react-icons/md';
 import { FaGithub } from 'react-icons/fa';
 import { DiSass, DiJavascript, DiReact, DiFirebase } from 'react-icons/di';
@@ -91,6 +92,11 @@ const TechVice = () => {
             className={style.goalsImage}
           />
         </div>
+      </div>
+
+      {/* PORTFOLIO LINK */}
+      <div className={style.portfolioLinkContainer}>
+        <Link to='/portfolio' className={style.portfolioLink}>Back to Portfolio</Link>
       </div>
 
     </div>

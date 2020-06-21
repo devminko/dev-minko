@@ -98,6 +98,7 @@
     align-items: center;
     justify-content: center;
     padding: 0 2rem;
+    margin-bottom: 2rem;
     
     .textContainer {
       margin-bottom: 2rem;
@@ -121,6 +122,23 @@
 
       .goalsImage {
         // height: 100%;
+      }
+    }
+  }
+
+  // PORTFOLIO LINK CONTAINER SECTION
+  .portfolioLinkContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    .portfolioLink {
+      color: $strong-blue;
+      font-size: 1.3rem;
+
+      &:hover {
+        color: lighten($strong-blue, 10%);
       }
     }
   }
@@ -184,6 +202,13 @@
         .goalsDescription {
           font-size: 1.5rem;
         }
+      }
+    }
+
+    // PORTFOLIO LINK CONTAINER SECTION
+    .portfolioLinkContainer {
+      .portfolioLink {
+        font-size: 1.5rem;
       }
     }
   }
@@ -269,6 +294,13 @@
 
       .goalsImageContainer {
         width: 60%;
+      }
+    }
+
+    // PORTFOLIO LINK CONTAINER SECTION
+    .portfolioLinkContainer {
+      .portfolioLink {
+        font-size: 1.6rem;
       }
     }
   }

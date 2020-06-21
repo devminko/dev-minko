@@ -21,10 +21,31 @@ const AboutPage = () => {
             Email:<span className={style.contactHighlight}> minpko@gmail.com</span>
           </p>
           <p className={style.contactText}>
-            Github:<span className={style.contactHighlight}> https://github.com/mko5118</span>
+            Github:
+            <a
+              className={style.contactHighlight}
+              id={style.link}
+              href='https://github.com/mko5118'
+              target='_blank' 
+              rel='noopener noreferrer'
+            >
+              View Github
+            </a>
           </p>
           <p className={style.contactText}>
-            Location:<span className={style.contactHighlight}> Northern Virginia</span>
+            Linkedin:
+            <a
+              className={style.contactHighlight}
+              id={style.link}
+              href='https://www.linkedin.com/in/min-ko-695601186/'
+              target='_blank' 
+              rel='noopener noreferrer'
+            >
+              View Linkedin
+            </a>
+          </p>
+          <p className={style.contactText}>
+            Location:<span className={style.contactHighlight}> Northern Virginia / Washington D.C.</span>
           </p>
         </div>
       </div>
@@ -33,13 +54,7 @@ const AboutPage = () => {
       <div className={style.detailsContainer}>
         <h2 className={style.detailsTitle}>Background Info</h2>
         <p className={style.detailsText}>
-          A web developer mixed with a splash of web designer with a love for the Javascript ecosystem. I have a particular affinity for React.js and enjoy the flow that React provides for creating dynamic single page web pages to multi-page applications.
-        </p>
-        <p className={style.detailsText}>
-          For frontend development I work primarily within Javascript and React.js. Any styling is done with a combination of SASS / SCSS and CSS in Javascript via Styled Components. Keeping the Javascript theme, for any back-end development I use a combination of Node.js and Firebase.
-        </p>
-        <p className={style.detailsText}>
-          While I wouldn't call myself a designer, design theory is a topic that I am actively pursuing to learn. In today's day and age, the look and aesthetics of an application are equally as important as the product itself.
+          A developer and designer with a love for creating beautiful code and designs.
         </p>
       </div>
 

@@ -43,7 +43,7 @@
       font-family: $primary-font;
       font-size: 3rem;
       font-weight: 800;
-      text-align: center;
+      text-align: justify;
       margin-bottom: 1rem;
     }
 
@@ -55,7 +55,13 @@
         font-weight: 700;
 
         .contactHighlight {
+          color: $black;
           font-weight: 400;
+          margin-left: 1rem;
+        }
+
+        #link {
+          color: $strong-blue;
         }
       }
     }
@@ -68,7 +74,7 @@
       font-family: $primary-font;
       font-size: 3rem;
       font-weight: 800;
-      text-align: center;
+      text-align: justify;
       margin-bottom: 1rem;
     }
 
@@ -112,6 +118,9 @@
 
           .contactHighlight {
 
+            #link {
+
+            }
           }
         }
       }
@@ -178,8 +187,12 @@
         .contactText {
           margin-right: 4rem;
 
+          font-size: 1.6rem;
           .contactHighlight {
 
+            #link {
+
+            }
           }
         }
       }
@@ -193,7 +206,7 @@
       }
 
       .detailsText {
-
+        font-size: 1.6rem;
       }
     }
   }

@@ -1,4 +1,5 @@
 import React, { } from 'react';
+import { Link } from 'react-router-dom';
 import { MdWeb } from 'react-icons/md';
 import { FaGithub } from 'react-icons/fa';
 import { DiSass, DiJavascript, DiReact, DiNodejs, DiPostgresql } from 'react-icons/di';
@@ -82,7 +83,10 @@ const BoutiqueHipster = () => {
         <div className={style.textContainer}>
           <h2 className={style.goalsTitle}>Project Goals</h2>
           <p className={style.goalsDescription}>
-            Boutique Hipster was created to emulate a high end Boutique Clothing store. Fully built with from the ground up with React and Node. All styling for component were created with SCSS with the goal of creating a professional looking E-Commerce website. In addition, I wanted to create a Dashboard as well for the administrator of the website. This dashboard would allow for the admin to update the products directly through the dashboard as well as viewing all customer details and product details via the dashboard.
+            Boutique Hipster was created to emulate a high end Boutique Clothing store. Fully built with from the ground up with React and Node. All styling for component were created with SCSS with the goal of creating a professional looking E-Commerce website. 
+            <br />
+            <br />
+            In addition, I wanted to create a Dashboard as well for the administrator of the website. This dashboard would allow for the admin to update the products directly through the dashboard as well as viewing all customer details and product details via the dashboard.
           </p>
         </div>
         <div className={style.goalsImageContainer}>
@@ -92,6 +96,11 @@ const BoutiqueHipster = () => {
             className={style.goalsImage}
           />
         </div>
+      </div>
+
+      {/* PORTFOLIO LINK */}
+      <div className={style.portfolioLinkContainer}>
+        <Link to='/portfolio' className={style.portfolioLink}>Back to Portfolio</Link>
       </div>
 
     </div>
