@@ -7,6 +7,7 @@ import HomePage from '../pages/home-page/HomePage';
 import AboutPage from '../pages/about-page/AboutPage';
 import PortfolioPage from '../pages/portfolio-page/PortfolioPage';
 import Footer from '../pages/footer/Footer';
+import NotFoundPage from '../pages/404-page/NotFoundPage';
 
 // PORTFOLIO PAGES
 import AgileClient from '../components-portfolio/agile-client/AgileClient';
@@ -36,6 +37,7 @@ const App = () => {
             <Route exact path='/portfolio/munch-icecream' component={MunchIcecream} />
             <Route exact path='/portfolio/skynet' component={Skynet} />
             <Route exact path='/portfolio/tech-vice' component={TechVice} />
+            <Route component={NotFoundPage} />
           </Switch>
         </div>
           <Footer />
